@@ -1,0 +1,8 @@
+key: LFVMODV6U27UJAYCRC5A
+secret: WplBzze4V5knK9/hkzTMbgskPZ0kKNGL8DVsApCyoKM
+
+user: root
+pass: dzoni666!@#CAR  (root pass)
+
+user: dzoni
+pass: dzonicar666
