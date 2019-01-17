@@ -7,21 +7,39 @@
 html, body {
     font-family: 'Roboto', sans-serif !important;
     background: #fff;
+    overflow-x: hidden;
 }
 
 .orenda-wrapper {
+    .navbar.bg-light {
+        background-color: #fff!important;
+    }
+
     .punchline {
         padding-left: 4px;
     }
 
     img.logo {
         position: absolute;
-        bottom: -10px;
+        bottom: -15px;
         left: 16px;
     }
 
-    .purple-line {
+    .nav-decoration {
+        position: fixed;
+        width: 100vw;
+        top: 56px;
+        z-index: 10;
+
+        .purple-line {
+            height: 5px;
+            background: $purple;
+        }
         
+        .orange-line {
+            height: 5px;
+            background: $orange;
+        }
     }
 }
 
