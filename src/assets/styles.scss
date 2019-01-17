@@ -1,5 +1,50 @@
+// Define default font
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+@import 'variables';
+@import 'overrides';
+
+html, body {
+    font-family: 'Roboto', sans-serif !important;
+    background: #fff;
+}
+
+.orenda-wrapper {
+    .punchline {
+        padding-left: 4px;
+    }
+
+    img.logo {
+        position: absolute;
+        bottom: -10px;
+        left: 16px;
+    }
+
+    .purple-line {
+        
+    }
+}
+
 .page-wrapper {
     height: 100vh;
-    background-repeat: repeat;
-    background: url(/assets/img/hex-bg.png), rgb(28,62,201);
+
+    #orenda-video {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+    }
+
+    /* Style the button used to pause/play the video */
+    #toggle-btn {
+        position: fixed;
+        bottom: 10px;
+        left: calc(50% - 40px);
+    }
+
+    #toggle-btn:hover {
+        background: #ddd;
+        color: black;
+    }
 }
