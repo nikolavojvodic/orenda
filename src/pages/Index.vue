@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <video autoplay loop id="orenda-video">
+    <video loop muted id="orenda-video">
       <source src="../assets/video/gavin.mp4" type="video/mp4">
     </video>
 

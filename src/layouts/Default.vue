@@ -47,6 +47,12 @@
     </div>
     <!-- End content -->
 
+    <div
+      v-show="$route.name !== 'home'"
+      class="row mr-0 ml-0 nav-decoration">
+      <div class="purple-line bottom col-md-6 offset-md-6"/>
+    </div>
+
   </div>
 </template>
 
