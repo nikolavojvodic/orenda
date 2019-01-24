@@ -1,13 +1,17 @@
 <template>
   <Layout>
-    <video loop muted id="orenda-video">
+    <div class="img-holder">
+      <img class="page-logo" src="../assets/images/logo.png" alt="">
+      <img class="dice-page-logo" src="../assets/images/dice-logo.png" alt="">
+    </div>
+    <!-- <video loop muted id="orenda-video">
       <source src="../assets/video/gavin.mp4" type="video/mp4">
-    </video>
+    </video> -->
 
     <div class="video-content">
-      <button 
+      <button
         id="toggle-btn"
-        class="btn btn-dark"
+        class="btn btn-dark hidden"
         @click="togglePlay()">Pause</button>
     </div>
   </Layout>

@@ -1,6 +1,6 @@
 <template>
-  <div class="p-2 center-block">
-    <img class="img-center" :src="`~/assets/images/${imgUrl}`">
+  <div class="text-center center-block">
+    <img class="img-fluid person-img" :src="require(`@/assets/images/${imgUrl}`)">
     <p class="text-center">{{ name }} <br> ({{ position }})</p>
   </div>
 </template>
@@ -20,10 +20,6 @@ export default {
       type: String,
       required: true
     }
-  },
-
-  mounted () {
-    console.log(this.imgUrl)
   }
 }
 </script>

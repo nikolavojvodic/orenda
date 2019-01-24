@@ -3,6 +3,7 @@
 
 @import 'variables';
 @import 'overrides';
+@import 'agile';
 
 html, body {
     font-family: 'Raleway', sans-serif !important;
@@ -11,6 +12,10 @@ html, body {
 }
 
 .orenda-wrapper {
+    .hidden {
+        display: none;
+    }
+
     .navbar.bg-light {
         background-color: #fff!important;
     }
@@ -23,6 +28,18 @@ html, body {
         position: absolute;
         bottom: -15px;
         left: 16px;
+    }
+
+    img.page-logo {
+        position: fixed;
+        top: calc(50% - 30px);
+        left: calc(50% - 80px);
+    }
+
+    img.dice-page-logo {
+        position: fixed;
+        top: 50%;
+        left: calc(50% - 250px);
     }
 
     .nav-decoration {
@@ -61,14 +78,14 @@ html, body {
     }
 
     .page-content {
-        img {
-            width: 200px;
-            height: auto;
-        }
-
         .page-text {
             font-size: 1.5rem;
             padding-left: 40px;
+        }
+
+        .pull-up {
+            position: relative;
+            top: -190px;
         }
     }
 
@@ -93,3 +110,44 @@ html, body {
         color: black;
     }
 }
+
+@media screen and (min-width: 1140px) {
+    img.person-img {
+        max-width: 200px;
+    }
+}
+
+//  *** Product page ***
+    .slider-wrapper {
+        position: relative;
+        top: -100px;
+        height: 400px;
+        background: url('../assets/images/dice-bg.png');
+        background-repeat: repeat;
+
+        .slider-text {
+            background: rgba(87, 64, 153, 0.4);
+            height: 115%;
+            position: relative;
+            top: -30px;
+            padding: 40px;
+
+            p {
+                color: #fff;
+                font-size: 20px;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .slider-purple-line {
+        width: 100%;
+        height: 7px;
+        background: $purple;
+    }
+
+    .slider-orange-line {
+        width: 100%;
+        height: 7px;
+        background: $orange;
+    }

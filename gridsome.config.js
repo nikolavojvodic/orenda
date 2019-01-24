@@ -7,6 +7,6 @@
 module.exports = {
   siteName: 'Orenda Toys',
   siteUrl: 'http://orendatoys.com',
-  siteDescription: 'Orenda Toys #dontforgettoplay',
+  siteDescription: 'Orenda Toys, never forget to play',
   plugins: []
 }

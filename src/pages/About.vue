@@ -3,12 +3,13 @@
     <h2 class="page-title">People</h2>
     <div class="page-content container-fluid">
       <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12 page-text">
+        <div class="col-lg-3 col-md-4 col-sm-12 page-text">
           We are a group of people who want to share their love for games by making them.
         </div>
-        <div class="col-lg-8 col-md-8 col-sm-12">
-          <div class="d-flex flex-row">
+        <div class="col-lg-9 col-md-8 col-sm-12 pull-up">
+          <div class="row">
             <div
+              class="col-sm-4 col-md-4 col-xs-12"
               v-for="(person, index) in row1"
               :key="index">
               <Person
@@ -18,8 +19,9 @@
             </div>
           </div>
 
-          <div class="d-flex flex-row">
+          <div class="row">
             <div
+              class="col-sm-4 col-md-4 col-xs-12"
               v-for="(person, index) in row2"
               :key="index">
               <Person

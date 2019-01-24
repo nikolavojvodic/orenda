@@ -30,7 +30,7 @@
     <!-- End navigation -->
 
     <!-- Below nav decoration -->
-    <div class="row mr-0 ml-0 nav-decoration">
+    <div class="row mx-0 nav-decoration">
       <div
         v-show="$route.name === 'home'"
         class="purple-line col"/>
